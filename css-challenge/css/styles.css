@@ -1,17 +1,12 @@
-/*
-* No way to combine CSS classes unless you use
-* multiple selectors, or an add-on like Sass or
-* less. Or by using JavaScript
-*/
 #otherfont{
 	font-family: fantasy;
 }
 
-.blue {
+.fgblue {
 	color:	blue;
 }
 
-/*.bgred {
+.bgred {
 	background-color: red;
 }
 
@@ -19,7 +14,7 @@
 	background-color: yellow;
 }
 
-.largebox {
+div {
 	width: 200px;
 	height: 100px;
 }
@@ -29,33 +24,13 @@
 	height: 100px;
 }
 
-.redbox{
-	direction: inherit;
-}
-
-.class:redbox{
-
-}*/
-
-.redbox{
-	background-color: red;
-	width: 100px;
-	height: 100px;
-}
-
-.dashedyellowbox{
-	background-color: yellow;
+.dottedpurpleborder{
 	border: dotted #77008b;
-	width: 200px;
-	height: 100px;
 }
 
-.solidyellowbox{
-	background-color: yellow;
+.solidgreenborder{
 	border-style: solid;
 	border-color: green;
-	width: 200px;
-	height: 100px;
 }
 
 .spacey-emphasis{
