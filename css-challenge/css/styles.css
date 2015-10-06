@@ -1,0 +1,88 @@
+/*
+* No way to combine CSS classes unless you use
+* multiple selectors, or an add-on like Sass or
+* less. Or by using JavaScript
+*/
+#otherfont{
+	font-family: fantasy;
+}
+
+.blue {
+	color:	blue;
+}
+
+/*.bgred {
+	background-color: red;
+}
+
+.bgyellow {
+	background-color: yellow;
+}
+
+.largebox {
+	width: 200px;
+	height: 100px;
+}
+
+.smallbox {
+	width: 100px;
+	height: 100px;
+}
+
+.redbox{
+	direction: inherit;
+}
+
+.class:redbox{
+
+}*/
+
+.redbox{
+	background-color: red;
+	width: 100px;
+	height: 100px;
+}
+
+.dashedyellowbox{
+	background-color: yellow;
+	border: dotted #77008b;
+	width: 200px;
+	height: 100px;
+}
+
+.solidyellowbox{
+	background-color: yellow;
+	border-style: solid;
+	border-color: green;
+	width: 200px;
+	height: 100px;
+}
+
+.spacey-emphasis{
+	line-height: 2.5;
+	letter-spacing: 1em;
+	font-style: italic;
+}
+
+.inline-rtl{
+	direction: rtl;
+	color: #4b0082;
+}
+
+.roman-list{
+	list-style-type: upper-roman;
+}
+
+.square-list{
+	list-style-type: square;
+}
+
+.blue-bold{
+	color: blue;
+	font-weight: bold;
+}
+
+.red-reg{
+	color: red;
+	font-weight: normal;
+}
