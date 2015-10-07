@@ -1,0 +1,16 @@
+- see Dan's examples in his git repo (SoupBowlWeb/stylesheets-challenge, https://github.com/SoupBowlWeb/stylesheets-challenge)
+- note the difference between
+--- <element selector> <class/id selector>
+ versus
+--- <element selector>.<class/id selector>
+- " " means "apply to class/id found within that element OR ANY OF ITS CHILDREN"
+- <es> = <element selector>
+- <cids> = <class/id selector>
+-- " " then " " (e.g., "x y z .abc") means "for all class abc's within z's within y's within x's"
+-- another eg "ol ol" would affect all ordered lists nested within one ordered list, versus "ol" which is just the top level ordered lists
+-- also can do "<cids> <es>" to say "apply to all elements within class/id"
+- "." means "apply to an element of that class/id"
+- " > " is a child selector. Where " " selects all descendants, " > " selects only descendants one level below the given parent
+- '<es>[attribname="attribvalue"]' can be used to select on any attribute versus class and id attributes.
+-- Therefore, '<es>[class="xyz"]' is the same as '<es>.xyz'
+- Google the "+" character in CSS (e.g., "p+p")
