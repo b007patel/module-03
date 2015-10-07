@@ -60,4 +60,6 @@ div {
 .red-reg{
 	color: red;
 	font-weight: normal;
+	/*override div height*/
+	max-height: 1.2em;
 }
