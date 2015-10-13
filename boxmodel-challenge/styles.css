@@ -61,10 +61,12 @@ span {
 .i {
 	padding-top: 0;
 	padding-bottom: 0.25em;
+	margin-right: 1em;
 }
 
 .j {
 	padding-bottom: 0;
+	margin-right: 0.5em;
 }
 
 .k {
